@@ -2,10 +2,10 @@ type Config = { [key: string]: any }
 
 export const config: Config = {
   app: {
-    siteURLOrigin: "https://dev-jansson.sls.fi",
+    siteURLOrigin: "https://testa-jansson.sls.fi",
     projectNameDB: "jansson",
-    projectId: 69,
-    backendBaseURL: "https://testa-api.sls.fi/digitaledition",
+    projectId: 1,
+    backendBaseURL: "https://testa-jansson-api.sls.fi/digitaledition",
     alternateFacsimileBaseURL: "",
     i18n: {
       languages: [
@@ -55,7 +55,7 @@ export const config: Config = {
     inlineIllustrations: [],
     mediaCollectionMappings: {},
     order: [
-      []
+      [1]
     ]
   },
   ebooks: [],
@@ -209,7 +209,7 @@ export const config: Config = {
       showURNButton: true
     },
     text: {
-      defaultViews: ["manuscript", "facsimiles"],
+      defaultViews: ["readingtext", "manuscripts"],
       defaultViewOptions: [],
       showTextDownloadButton: false,
       showURNButton: false,
@@ -296,8 +296,8 @@ export const config: Config = {
       showURNButton: false,
       showLanguageButton: true,
       showSiteLogo: true,
-      siteLogoDefaultImageURL: "assets/images/logo/SLS_logo_full_white_346x112.png",
-      siteLogoMobileImageURL: "assets/images/logo/SLS_logo_symbol_white_112x112.png",
+      siteLogoDefaultImageURL: "assets/images/logo/SLS_logo_full_black_346x112.png",
+      siteLogoMobileImageURL: "assets/images/logo/SLS_logo_symbol_black_112x112.png",
       siteLogoLinkURL: "https://www.sls.fi/",
       siteLogoDimensions: {
         default: {

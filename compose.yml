@@ -4,7 +4,7 @@ services:
     depends_on:
       - web
     ports:
-      - 2091:80
+      - 2090:80
     restart: unless-stopped
     volumes:
       - browser-static:/static
@@ -14,8 +14,7 @@ services:
       context: .
       dockerfile: Dockerfile
     extra_hosts:
-      - "api.sls.fi:172.16.2.136"
-      - "granska-api.sls.fi:172.16.2.136"
+      - "testa-jansson-api.sls.fi:10.0.32.143"
     image: ghcr.io/slsfi/jansson-frontend:main
     restart: unless-stopped
     volumes:
