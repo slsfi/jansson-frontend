@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+
+
+## [1.6.2-dev.1] – 2025-05-07
+
 ### Changed
 
-- Set up basic development configuration.
+- Set up basic development configuration. ([e4c366e](https://github.com/slsfi/jansson-frontend/commit/e4c366ecb75fcc4dea3b1d36adf33e0ce7e34b9e), [0d9f97e](https://github.com/slsfi/jansson-frontend/commit/0d9f97edea0db0d8d39e346cf54c36da42088e65))
 
 
 
@@ -613,3 +617,5 @@ siteLogoDimensions: {
 [1.0.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
+
+[1.6.2-dev.1]: https://github.com/slsfi/jansson-frontend/releases/tag/1.6.2-dev.1

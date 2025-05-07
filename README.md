@@ -1,6 +1,6 @@
-# Development frontend of the digital edition Tove Jansson, dev-jansson.sls.fi
+# Development frontend of the digital edition Tove Jansson, testa-jansson.sls.fi
 
-This branch contains the internal, development frontend app of the digital edition Tove Jansson, <https://dev-jansson.sls.fi/>. It is based on [`digital-edition-frontend-ng`][digital-edition-frontend-ng], the frontend app of the [SLS][SLS] platform for building digital edition web apps.
+This branch contains the internal, development frontend app of the digital edition Tove Jansson, <https://testa-jansson.sls.fi/>. It is based on [`digital-edition-frontend-ng`][digital-edition-frontend-ng], the frontend app of the [SLS][SLS] platform for building digital edition web apps.
 
 The app is built on [Angular][angular] and uses [Ionic][ionic] web components.
 
