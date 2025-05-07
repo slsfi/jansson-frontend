@@ -13,8 +13,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    extra_hosts:
-      - "testa-jansson-api.sls.fi:10.0.32.143"
     image: ghcr.io/slsfi/jansson-frontend:main
     restart: unless-stopped
     volumes:
