@@ -32,8 +32,8 @@ export const config: Config = {
       }
     },
     prebuild: {
-      sitemap: true,
-      staticCollectionMenus: true
+      sitemap: false,
+      staticCollectionMenus: false
     },
     ssr: {
       collectionSideMenu: false
@@ -44,9 +44,9 @@ export const config: Config = {
     replaceImageAssetsPaths: false,
     enableLegacyIDs: false,
     enableMathJax: false,
-    firstTextItem: {},
+    firstTextItem: { 1: "1_1" },
     frontMatterPages: {
-      cover: true,
+      cover: false,
       title: false,
       foreword: false,
       introduction: false
@@ -149,8 +149,8 @@ export const config: Config = {
     home: {
       bannerImage: {
         altTexts: {
-          sv: "Porträtt av Zacharias Topelius",
-          fi: "Zacharias Topeliuksen muotokuva"
+          sv: "",
+          fi: ""
         },
         intrinsicSize: {
           height: null,
@@ -209,7 +209,7 @@ export const config: Config = {
       showURNButton: true
     },
     text: {
-      defaultViews: ["readingtext", "manuscripts"],
+      defaultViews: ["readingtext", "facsimiles", "manuscripts"],
       defaultViewOptions: [],
       showTextDownloadButton: false,
       showURNButton: false,
