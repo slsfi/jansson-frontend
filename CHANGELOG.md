@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+### Changed
+
+- Update config.
+
 
 
 ## [1.6.2-dev.1] – 2025-05-07
