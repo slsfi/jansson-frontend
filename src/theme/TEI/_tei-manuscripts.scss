@@ -124,6 +124,12 @@ div.tei {
       position: relative;
     }
 
+    .lg,
+    .poem.incorp .lg {
+      margin-bottom: 2em;
+      margin-top: 2em;
+    }
+
     img {
       width: 0.9412em;
       display: inline;
@@ -135,6 +141,7 @@ div.tei {
     h4,
     h5,
     h6 {
+      line-height: 2;
       text-align: left;
 
       &.title {
@@ -217,12 +224,29 @@ div.tei {
     color: initial;
   }
   .substAdd {
+    .substDel {
+      color: #2929ca;
+    }
+
     &.addAbove,
     &.addSublinear {
       bottom: -0.353em;
       line-height: 1;
       top: initial;
       vertical-align: initial;
+    }
+
+    &.addAbove + .substAdd.addAbove {
+      bottom: -0.11765em;
+    }
+
+    &.addAbove .substAdd.addAbove {
+      bottom: 0.11765em;
+    }
+
+    &.addAbove.substDelHasAddAbove {
+      bottom: 0.25em;
+      line-height: 2;
     }
   }
 
@@ -241,9 +265,16 @@ div.tei {
   }
 
   .deletion.hand,
-  .delSpanHand.strikethrough {
+  .deletion.hand span,
+  .delSpanHand.strikethrough,
+  .delSpanHand.strikethrough span {
+    text-decoration: line-through;
     text-decoration-color: #008100;
     text-decoration-thickness: 2px;
+  }
+
+  .deletion.hand {
+    color: initial;
   }
 
   .delSpan {
