@@ -23,6 +23,10 @@ div.tei.show_pageBreakEdition .pb.edition {
 
 div.tei.show_pageBreakOriginal .pb.orig {
   color: var(--pageBreakOriginal-color, #b32fa0);
+
+  &.facs {
+    color: #0000ff;
+  }
 }
 
 /* Size of page numberings at different font sizes. */
