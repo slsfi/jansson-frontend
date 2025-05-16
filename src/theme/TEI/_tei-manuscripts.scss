@@ -248,6 +248,10 @@ div.tei {
       bottom: 0.25em;
       line-height: 2;
     }
+
+    &.addAbove .addAbove:not(.substAdd) {
+      line-height: 2;
+    }
   }
 
   .altSeg {
@@ -264,6 +268,10 @@ div.tei {
     }
   }
 
+  .deletion span {
+    text-decoration: line-through;
+  }
+
   .deletion.hand,
   .deletion.hand span,
   .delSpanHand.strikethrough,
@@ -274,7 +282,11 @@ div.tei {
   }
 
   .deletion.hand {
-    color: initial;
+    color: inherit; /* Dubbelkolla att det blir rätt med detta, Trollvinter facs 37 t.ex. -> blir inte rätt*/
+
+    &.substDel {
+      color: initial;
+    }
   }
 
   .delSpan {
