@@ -11,7 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Update CSS.
-
+- Update `robots.txt`.
 
 
 ## [1.6.2-dev.3] – 2025-05-12
