@@ -8,10 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.6.2-dev.4] – 2025-05-16
+
 ### Changed
 
-- Update CSS.
-- Update `robots.txt`.
+- Update CSS. ([68b9273](https://github.com/slsfi/jansson-frontend/commit/68b9273d626e1d264ad1e59d8b7d42f20741ed39))
+- Update `robots.txt`. ([a80e301](https://github.com/slsfi/jansson-frontend/commit/a80e30118e03a4558a2f13dcc251524828265553))
+
 
 
 ## [1.6.2-dev.3] – 2025-05-12
@@ -638,6 +643,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.6.2-dev.4]: https://github.com/slsfi/jansson-frontend/compare/1.6.2-dev.3...1.6.2-dev.4
 [1.6.2-dev.3]: https://github.com/slsfi/jansson-frontend/compare/1.6.2-dev.2...1.6.2-dev.3
 [1.6.2-dev.2]: https://github.com/slsfi/jansson-frontend/compare/1.6.2-dev.1...1.6.2-dev.2
 [1.6.2-dev.1]: https://github.com/slsfi/jansson-frontend/releases/tag/1.6.2-dev.1
