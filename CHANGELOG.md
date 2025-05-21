@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.6.5-dev.2] – 2025-05-21
+
 ### Changed
 
-- Update CSS for manuscripts.
+- Update CSS for manuscripts. ([618cc83](https://github.com/slsfi/jansson-frontend/commit/618cc83b3b770cb898e9f978ef28bee17e244ba9), [97002f4](https://github.com/slsfi/jansson-frontend/commit/97002f48e50606e308a3fd26832730fb8c3b6e19), [3183101](https://github.com/slsfi/jansson-frontend/commit/31831012d90bf0102eb92ddbb6a3b9d8e47de6c1))
 
 
 
@@ -707,6 +711,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.6.5-dev.2]: https://github.com/slsfi/jansson-frontend/compare/1.6.5-dev.1...1.6.5-dev.2
 [1.6.5-dev.1]: https://github.com/slsfi/jansson-frontend/compare/1.6.2-dev.4...1.6.5-dev.1
 [1.6.2-dev.4]: https://github.com/slsfi/jansson-frontend/compare/1.6.2-dev.3...1.6.2-dev.4
 [1.6.2-dev.3]: https://github.com/slsfi/jansson-frontend/compare/1.6.2-dev.2...1.6.2-dev.3
