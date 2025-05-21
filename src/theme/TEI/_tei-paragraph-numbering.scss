@@ -26,15 +26,59 @@
   }
 }
 
-.tei.show_paragraphNumbering span.lNumber,
-.tei.show_paragraphNumbering .parIndent span.pNumber,
-.tei.show_paragraphNumbering p.hangingIndent span.pNumber,
-.tei.show_paragraphNumbering blockquote span.pNumber {
-  margin-left: -65px;
+.miniFontSize .tei.show_paragraphNumbering p.lg span {
+  &.lNumber,
+  &.pNumber {
+    margin-left: calc(-2.5 * $text-fontsize-mini - 35px);
+  }
 }
-
-.tei.show_paragraphNumbering p.labelledLines_before span.lNumber {
-  margin-left: -145px;
+.tinyFontSize .tei.show_paragraphNumbering p.lg span {
+  &.lNumber,
+  &.pNumber {
+    margin-left: calc(-2.5 * $text-fontsize-tiny - 35px);
+  }
+}
+.xxxsmallFontSize .tei.show_paragraphNumbering p.lg span {
+  &.lNumber,
+  &.pNumber {
+    margin-left: calc(-2.5 * $text-fontsize-xxxsmall - 35px);
+  }
+}
+.xxsmallFontSize .tei.show_paragraphNumbering p.lg span {
+  &.lNumber,
+  &.pNumber {
+    margin-left: calc(-2.5 * $text-fontsize-xxsmall - 35px);
+  }
+}
+.xsmallFontSize .tei.show_paragraphNumbering p.lg span {
+  &.lNumber,
+  &.pNumber {
+    margin-left: calc(-2.5 * $text-fontsize-xsmall - 35px);
+  }
+}
+.smallFontSize .tei.show_paragraphNumbering p.lg span {
+  &.lNumber,
+  &.pNumber {
+    margin-left: calc(-2.5 * $text-fontsize-small - 35px);
+  }
+}
+.mediumFontSize .tei.show_paragraphNumbering p.lg span {
+  &.lNumber,
+  &.pNumber {
+    margin-left: calc(-2.5 * $text-fontsize-medium - 35px);
+  }
+}
+.largeFontSize .tei.show_paragraphNumbering p.lg span {
+  &.lNumber,
+  &.pNumber {
+    margin-left: calc(-2.5 * $text-fontsize-large - 35px);
+  }
+}
+.xlargeFontSize .tei.show_paragraphNumbering p.lg span {
+  &.lNumber,
+  &.pNumber {
+    margin-left: calc(-2.5 * $text-fontsize-xlarge - 35px);
+  }
 }
 
 /*
