@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Fixed
+
+- SCSS variable use in `_tei-paragraph-numbering.scss`.
 
 
 ## [2.0.0-dev.1] – 2025-08-06
