@@ -282,18 +282,12 @@ export const config: Config = {
       },
       showTitles: true
     },
-    epub: {
-      showTOCButton: true,
-      showURNButton: true,
-      showViewOptionsButton: true
-    },
     facsimiles: {
       imageQuality: 4,
       showTitle: true
     },
     mainSideMenu: {
       items: {
-        home: false,
         about: true,
         ebooks: false,
         collections: true,
@@ -301,7 +295,8 @@ export const config: Config = {
         indexKeywords: false,
         indexPersons: false,
         indexPlaces: false,
-        indexWorks: false
+        indexWorks: false,
+        search: true
       },
       defaultExpanded: false
     },
@@ -314,22 +309,7 @@ export const config: Config = {
       showAboutButton: true,
       showContentButton: true,
       showElasticSearchButton: true,
-      showURNButton: false,
-      showLanguageButton: true,
-      showSiteLogo: true,
-      siteLogoDefaultImageURL: "assets/images/logo/SLS_logo_full_black_346x112.png",
-      siteLogoMobileImageURL: "assets/images/logo/SLS_logo_symbol_black_112x112.png",
-      siteLogoLinkURL: "https://www.sls.fi/",
-      siteLogoDimensions: {
-        default: {
-          height: 56,
-          width: 173
-        },
-        mobile: {
-          height: 56,
-          width: 56
-        }
-      }
+      showLanguageButton: true
     },
     variants: {
       showOpenLegendButton: true
