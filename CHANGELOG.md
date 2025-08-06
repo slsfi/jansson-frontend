@@ -8,9 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.0.0-dev.2] – 2025-08-06
+
 ### Fixed
 
-- SCSS variable use in `_tei-paragraph-numbering.scss`.
+- SCSS variable use in `_tei-paragraph-numbering.scss`. ([ce259e2](https://github.com/slsfi/jansson-frontend/commit/ce259e203c9fdb7cb622a36725a1b3af931d691c))
+
 
 
 ## [2.0.0-dev.1] – 2025-08-06
@@ -961,6 +966,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.0.0-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.1...2.0.0-dev.2
 [2.0.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/1.8.2-dev.1...2.0.0-dev.1
 [1.8.2-dev.1]: https://github.com/slsfi/jansson-frontend/compare/1.6.5-dev.2...1.8.2-dev.1
 [1.6.5-dev.2]: https://github.com/slsfi/jansson-frontend/compare/1.6.5-dev.1...1.6.5-dev.2
