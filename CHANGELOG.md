@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.0.0-dev.3] – 2025-09-11
+
 ### Changed
 
-- Update CSS with style for form-shift text.
+- Update CSS with style for form-shift text. ([31ce129](https://github.com/slsfi/jansson-frontend/commit/31ce1298ccdb7986b5affca88c36d82dc8dcae9d), [be1832b](https://github.com/slsfi/jansson-frontend/commit/be1832bc6cf32ae1895d9f5a787a02477af90552))
 
 
 
@@ -970,6 +974,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.0.0-dev.3]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.2...2.0.0-dev.3
 [2.0.0-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.1...2.0.0-dev.2
 [2.0.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/1.8.2-dev.1...2.0.0-dev.1
 [1.8.2-dev.1]: https://github.com/slsfi/jansson-frontend/compare/1.6.5-dev.2...1.8.2-dev.1
