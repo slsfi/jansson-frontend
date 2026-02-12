@@ -10,7 +10,7 @@ export const config: Config = {
     i18n: {
       languages: [
         { code: "sv", label: "Svenska", region: "FI" },
-        { code: "fi", label: "Suomi", region: "FI" }
+        { code: "en", label: "English", region: "GB" }
       ],
       defaultLanguage: "sv",
       multilingualCollectionTableOfContents: false,
@@ -22,11 +22,11 @@ export const config: Config = {
       enabled: true,
       image: {
         sv: {
-          altText: "alt-text",
+          altText: "Svartvitt foto av en kvinna med kort hår och stickad tröja som sitter vid ett skrivbord, omgiven av papper och teckningar, och skriver under en bordslampa.",
           URL: "assets/images/home-page-banner.jpg"
         },
-        fi: {
-          altText: "alt-teksti",
+        en: {
+          altText: "Black and white photo of a woman with short hair and a knitted sweater sitting at a desk, surrounded by papers and drawings, writing under a desk lamp.",
           URL: "assets/images/home-page-banner.jpg"
         }
       }
@@ -161,15 +161,64 @@ export const config: Config = {
       bannerImage: {
         altTexts: {
           sv: "",
-          fi: ""
+          en: ""
         },
         intrinsicSize: {
-          height: null,
-          width: null
+          height: 1930,
+          width: 3840
         },
         orientationPortrait: false,
-        alternateSources: [],
-        URL: "assets/images/home-page-banner.jpg"
+        alternateSources: [
+          {
+            media: "(orientation: portrait) and (min-resolution: 2x)",
+            srcset: "assets/images/tove-jansson-2574x2574.avif 2574w",
+            type: "image/avif"
+          },
+          {
+            media: "(orientation: portrait) and (min-resolution: 2x)",
+            srcset: "assets/images/tove-jansson-2574x2574.jpg 2574w",
+            type: "image/jpeg"
+          },
+          {
+            media: "(orientation: portrait) and (max-height: 860px)",
+            srcset: "assets/images/tove-jansson-1287x1287.avif 1287w",
+            type: "image/avif"
+          },
+          {
+            media: "(orientation: portrait) and (max-height: 860px)",
+            srcset: "assets/images/tove-jansson-1287x1287.jpg 1287w",
+            type: "image/jpeg"
+          },
+          {
+            media: "(max-height: 965px) and (max-resolution: 1x)",
+            srcset: "assets/images/tove-jansson-1920x965.avif 1920w",
+            type: "image/avif"
+          },
+          {
+            media: "(max-height: 965px) and (max-resolution: 1x)",
+            srcset: "assets/images/tove-jansson-1920x965.jpg 1920w",
+            type: "image/jpeg"
+          },
+          {
+            media: "((max-height: 1287px) and (max-resolution: 1x)) or (max-height: 910px)",
+            srcset: "assets/images/tove-jansson-2560x1287.avif 2560w",
+            type: "image/avif"
+          },
+          {
+            media: "((max-height: 1287px) and (max-resolution: 1x)) or (max-height: 910px)",
+            srcset: "assets/images/tove-jansson-2560x1287.jpg 2560w",
+            type: "image/jpeg"
+          },
+          {
+            srcset: "assets/images/tove-jansson-3840x1930.avif 3840w",
+            type: "image/avif"
+          },
+          {
+            srcset: "assets/images/tove-jansson-3840x1930.jpg 3840w",
+            type: "image/jpeg"
+          }
+        ],
+        URL: "assets/images/tove-jansson-3840x1930.jpg"
       },
       portraitOrientationSettings: {
         imagePlacement: {
@@ -284,7 +333,7 @@ export const config: Config = {
       mediaCollectionCoverURL: "",
       mediaCollectionCoverAltTexts: {
         sv: "Alt-text",
-        fi: "Alt-teksti"
+        en: "Alt-teksti"
       },
       showTitles: true
     },
