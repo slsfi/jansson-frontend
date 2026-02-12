@@ -196,60 +196,134 @@
 
 /* Added custom variables */
 :root {
-  --custom-action-color:          #3A5163;
+  --custom-action-color:          #bd4a2d;
   --custom-action-color-contrast: #fff;
 }
 
 /* Override CSS variables */
 :root {
-  --primary-color: #A3C6E3;
-  --primary-color-rgb: 163, 198, 227;
-  --primary-color-contrast:           #000;
-  --secondary-color: #cfdce7;
-  --secondary-color-contrast: #302923;
-  --main-background-color:                #f5f5f5;
-  --route-loading-progress-bar-color:     rgba(0, 0, 0, 0.2);
+  --primary-color: #5d657d;
+  --primary-color-rgb: 93, 101, 125;
+  --primary-color-contrast:           #fff;
+  --secondary-color: #c6d3d2;
+  --secondary-color-contrast: #000;
+  --main-background-color:                #ededed;
+  --route-loading-progress-bar-color:     rgba(218, 218, 218, 0.2);
   --default-link-color: #26499C;
 
+  /*
   --button-background-color:               var(--custom-action-color);
   --button-text-color:                     var(--custom-action-color-contrast);
+  */
   --fab-button-primary-background-color:   var(--custom-action-color);
   --fab-button-primary-icon-color:         var(--custom-action-color-contrast);
-  --outline-button-color:                  var(--custom-action-color);
+  /*--outline-button-color:                  #A54027;*/
+
+  --font-stack-app-base:           Inter, var(--font-stack-system);
+  --font-stack-home-banner:        "acumin-pro", Inter, var(--font-stack-system);
 }
 
 ion-app[class][class] {
-  --secondary-toolbar-color:              #fdf2e9;
-  --top-menu-button-filter:                      none;
-  --side-menu-background-color: #fdf2e9;
-  --side-menu-divider-color: #f3e3d6;
-  --side-menu-hover-color: #6E5945;
-  --side-menu-selected-background-color: #EBD8D1;
-  --side-menu-collection-title-background-color: #DBCEC3;
-  --side-menu-text-color: #302923;
+  /*--secondary-toolbar-color:              #add9d5;*/
+  --side-menu-back-button-background-color: #add9d5;
+  --side-menu-background-color: var(--primary-color);
+  --side-menu-divider-color: #90bdb9;
+  --side-menu-hover-color: var(--primary-color);
+  --side-menu-selected-background-color: #fff291;
+  --side-menu-collection-title-background-color: #bdc9c8;
+  --side-menu-text-color: #000000;
 }
 
 /* Custom, project specific styles */
 
+ion-app[class][class] {
+  main-side-menu,
+  collection-side-menu {
+    /* Set background of actual side menu components to different than the nav element behind */
+    background-color: #add9d5;
+
+    /* Remove bottom border from last menu item on first level */
+    > ul > li:last-of-type span.label {
+      border-bottom: 0;
+    }
+  }
+}
+
+top-menu {
+  // adjust site title in the top menu
+  div.site-title {
+    a {
+      font-variant: normal;
+      text-transform: uppercase;
+
+      @media only screen and (min-width: 540px) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
 /* Home page */
 page-home {
-  .portrait-mode {
-    .banner {
-      background-color: #d0d6e4;
-    }
-    .title-wrapper {
-      .site-subtitle.site-subtitle {
-        font-size: 1.5rem;
-        font-style: normal;
-      }
-    }
-    .text-content.text-content.text-content {
-      max-width: 750px;
+  .banner.banner {
+    height: 75%;
 
-      .footer.footer.footer.footer {
-        text-align: center;
+    .title-wrapper {
+      &.title-wrapper {
+        top: 55%;
+      }
+
+      .banner-title {
+        background-color: transparent;
+        color: #fff;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 0.15em;
+        opacity: unset;
+        text-shadow: 0 0 8px #000;
+        text-transform: uppercase;
+        white-space: pre-line;
       }
     }
+
+
+    /* The top left of the banner image must remain in view */
+    .landscape-picture img {
+      object-position: left top;
+    }
+  }
+
+  .text-content div.site-presentation.markdown.markdown {
+    max-width: 750px;
+    text-align: left;
+  }
+}
+
+/* On page-about */
+table.website-change-log {
+  margin-top: 2em;
+
+  th,
+  td {
+    text-align: left;
+    padding: 0.25em 1.5em 0.25em 0;
+  }
+
+  th {
+    border-bottom: 1px solid #222;
+  }
+
+  td {
+    border-bottom: 1px solid #cecece;
+  }
+
+  tr:last-child td {
+    border-bottom: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0 0 0 1em;
   }
 }
 
@@ -258,6 +332,10 @@ page-elastic-search {
     /* Sökinstruktionerna i avancerade sökningen */
     details {
       padding: .5em .5em 0;
+
+      ul li {
+        line-height: 1.5;
+      }
 
       ul li + li {
         padding-top: 0.75em;
@@ -290,14 +368,4 @@ page-elastic-search {
       padding: 0.125em 0.25em;
     }
   }
-}
-
-/* Cookiebannern */
-a.cky-banner-element {
-  cursor: pointer;
-  text-decoration: underline;
-}
-#cky-consent,
-#cky-settings-popup {
-	font-family: var(--font-stack-app-base);
 }

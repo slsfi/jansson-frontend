@@ -1563,7 +1563,8 @@
     <unit id="Site.Title">
       <segment state="initial">
         <source>Webbplatsens titel</source>
-        <target>Tove Jansson</target>
+        <target>Tove Janssons
+ Skrifter</target>
       </segment>
     </unit>
     <unit id="TextChanger.NextLabel">
