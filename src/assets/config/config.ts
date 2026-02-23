@@ -32,6 +32,7 @@ export const config: Config = {
       }
     },
     prebuild: {
+      featureBasedRoutes: true,
       sitemap: false,
       staticCollectionMenus: false
     },
@@ -353,9 +354,9 @@ export const config: Config = {
         indexPlaces: false,
         indexWorks: false,
         search: true,
-        cookiePolicy: false,
-        privacyPolicy: false,
-        termsOfUse: false,
+        cookiePolicy: true,
+        privacyPolicy: true,
+        termsOfUse: true,
         accessibilityStatement: false,
       },
       defaultExpanded: false,
@@ -367,7 +368,7 @@ export const config: Config = {
       showOpenLegendButton: true
     },
     topMenu: {
-      showAboutButton: true,
+      showAboutButton: false,
       showContentButton: true,
       showElasticSearchButton: true,
       showLanguageButton: true

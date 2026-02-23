@@ -230,6 +230,7 @@ ion-app[class][class] {
   --side-menu-selected-background-color: #fff291;
   --side-menu-collection-title-background-color: #bdc9c8;
   --side-menu-text-color: #000000;
+  --side-menu-description-text-color: #1a1a1a;
 }
 
 /* Custom, project specific styles */
@@ -237,8 +238,14 @@ ion-app[class][class] {
 ion-app[class][class] {
   main-side-menu,
   collection-side-menu {
-    /* Set background of actual side menu components to different than the nav element behind */
-    background-color: #add9d5;
+    > ul {
+      /* Set background of actual side menu components to different than the nav element behind */
+      background-color: #add9d5;
+
+      &.secondary-menu-list li:first-of-type {
+        margin-top: 0;
+      }
+    }
 
     /* Remove bottom border from last menu item on first level */
     > ul > li:last-of-type span.label {
