@@ -352,7 +352,11 @@ export const config: Config = {
         indexPersons: false,
         indexPlaces: false,
         indexWorks: false,
-        search: true
+        search: true,
+        cookiePolicy: false,
+        privacyPolicy: false,
+        termsOfUse: false,
+        accessibilityStatement: false,
       },
       defaultExpanded: false,
       ungroupArticles: false
