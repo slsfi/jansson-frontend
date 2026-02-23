@@ -8,11 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.5.0-dev.1] – 2026-02-23
+
 ### Changed
 
-- Adjust theme.
-- Enable feature based routes and cookie policy, privacy policy and terms pages in config.
-- Update to base version [`2.5.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.5.0) from upstream, original repository.
+- Adjust theme. ([5e108d4](https://github.com/slsfi/jansson-frontend/commit/5e108d46ad74ee051377ba9d8eb9a8c1f3f27bc9))
+- Enable feature based routes and cookie policy, privacy policy and terms pages in config. ([ab0e40e](https://github.com/slsfi/jansson-frontend/commit/ab0e40eb12bba505542d7b07494995a81c6da796))
+- Update to base version [`2.5.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.5.0) from upstream, original repository. ([2b73d5a](https://github.com/slsfi/jansson-frontend/commit/2b73d5ad90b7f181cd2f4492202e3682f711d8b8))
 
 
 
@@ -1379,6 +1383,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.5.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.4.4-dev.1...2.5.0-dev.1
 [2.4.4-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.3...2.4.4-dev.1
 [2.0.0-dev.3]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.2...2.0.0-dev.3
 [2.0.0-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.1...2.0.0-dev.2
