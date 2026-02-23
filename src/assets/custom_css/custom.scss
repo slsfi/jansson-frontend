@@ -196,7 +196,7 @@
 
 /* Added custom variables */
 :root {
-  --custom-action-color:          #bd4a2d;
+  --custom-action-color:          #3f4c93;
   --custom-action-color-contrast: #fff;
 }
 
@@ -211,13 +211,11 @@
   --route-loading-progress-bar-color:     rgba(218, 218, 218, 0.2);
   --default-link-color: #26499C;
 
-  /*
   --button-background-color:               var(--custom-action-color);
   --button-text-color:                     var(--custom-action-color-contrast);
-  */
   --fab-button-primary-background-color:   var(--custom-action-color);
   --fab-button-primary-icon-color:         var(--custom-action-color-contrast);
-  /*--outline-button-color:                  #A54027;*/
+  --outline-button-color:                  var(--custom-action-color);
 
   --font-stack-app-base:           Inter, var(--font-stack-system);
   --font-stack-home-banner:        "acumin-pro", Inter, var(--font-stack-system);
