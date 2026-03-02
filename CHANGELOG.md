@@ -8,9 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.5.1-dev.1] – 2026-03-02
+
 ### Changed
 
-- Update to base version [`2.5.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.5.1) from upstream, original repository.
+- Update to base version [`2.5.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.5.1) from upstream, original repository. ([8012b80](https://github.com/slsfi/jansson-frontend/commit/8012b805f9e0cff0b2591872970f74e31022a5c6))
+
+### Fixed
+
+- Home page: banner image position on Full HD screens. ([adbded4](https://github.com/slsfi/jansson-frontend/commit/adbded451b77808c90d8dbe239a4e00778529e6f))
 
 
 
@@ -1402,6 +1410,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.5.1-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.5.0-dev.1...2.5.1-dev.1
 [2.5.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.4.4-dev.1...2.5.0-dev.1
 [2.4.4-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.3...2.4.4-dev.1
 [2.0.0-dev.3]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.2...2.0.0-dev.3
