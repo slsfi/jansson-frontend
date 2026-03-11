@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.5.1-dev.2] – 2026-03-11
+
 # Changed
 
-- Main side menu: reorder terms and privacy policy pages.
-- Website title.
+- Main side menu: reorder terms and privacy policy pages. ([730654f](https://github.com/slsfi/jansson-frontend/commit/730654fc5afa8c5457f9ccbe49b7133140db2d96))
+- Website title. ([dbd1e3a](https://github.com/slsfi/jansson-frontend/commit/dbd1e3a05bd39e29cc9c69d663adcdd546016173))
 
 
 
@@ -1415,6 +1419,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.5.1-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.5.1-dev.1...2.5.1-dev.2
 [2.5.1-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.5.0-dev.1...2.5.1-dev.1
 [2.5.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.4.4-dev.1...2.5.0-dev.1
 [2.4.4-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.3...2.4.4-dev.1
