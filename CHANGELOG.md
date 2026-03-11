@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+# Changed
+
+- Main side menu: reorder terms and privacy policy pages.
+
 
 
 ## [2.5.1-dev.1] – 2026-03-02
