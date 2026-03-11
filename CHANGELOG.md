@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 # Changed
 
 - Main side menu: reorder terms and privacy policy pages.
+- Website title.
 
 
 

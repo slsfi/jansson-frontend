@@ -1588,7 +1588,7 @@
       <segment state="initial">
         <source>Webbplatsens titel</source>
         <target>Tove Janssons
- Skrifter</target>
+ skrifter</target>
       </segment>
     </unit>
     <unit id="TextChanger.NextLabel">
