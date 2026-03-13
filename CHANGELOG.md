@@ -8,9 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.6.1-dev.2] – 2026-03-13
+
 ### Changed
 
-- Enable articles in config.
+- Enable articles in config. ([926385a](https://github.com/slsfi/jansson-frontend/commit/926385a879315cd12335ac691c1ad98f72fad96f))
+
 
 
 ## [2.6.1-dev.1] – 2026-03-13
@@ -1476,6 +1481,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.6.1-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.1...2.6.1-dev.2
 [2.6.1-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.5.1-dev.2...2.6.1-dev.1
 [2.5.1-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.5.1-dev.1...2.5.1-dev.2
 [2.5.1-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.5.0-dev.1...2.5.1-dev.1
