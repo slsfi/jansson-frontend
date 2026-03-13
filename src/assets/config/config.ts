@@ -45,7 +45,26 @@ export const config: Config = {
       collectionSideMenu: false
     }
   },
-  articles: [],
+  articles: [
+    {
+      id: "04-01",
+      language: "sv",
+      routeName: "om-tove-jansson",
+      title: "Om Tove Jansson",
+      coverURL: "",
+      enableTOC: false,
+      downloadOptions: []
+    },
+    {
+      id: "04-01",
+      language: "en",
+      routeName: "about-tove-jansson",
+      title: "About Tove Jansson",
+      coverURL: "",
+      enableTOC: false,
+      downloadOptions: []
+    }
+  ],
   collections: {
     addTEIClassNames: false,
     replaceImageAssetsPaths: false,
@@ -350,7 +369,7 @@ export const config: Config = {
     mainSideMenu: {
       items: {
         about: true,
-        articles: false,
+        articles: true,
         ebooks: false,
         collections: true,
         mediaCollections: false,
@@ -365,7 +384,7 @@ export const config: Config = {
         accessibilityStatement: false,
       },
       defaultExpanded: false,
-      ungroupArticles: false
+      ungroupArticles: true
     },
     manuscripts: {
       showTitle: true,

@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Enable articles in config.
 
 
 ## [2.6.1-dev.1] – 2026-03-13
