@@ -19,8 +19,8 @@ export const config: Config = {
     },
     enableRouterLoadingBar: true,
     auth: {
-      enabled: false,
-      backendAuthBaseURL: "https://api.sls.fi/"
+      enabled: true,
+      backendAuthBaseURL: "https://testa-jansson-api.sls.fi/"
     },
     openGraphMetaTags: {
       enabled: true,
