@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.6.1-dev.3] – 2026-03-17
+
 ### Changed
 
-- Enable auth mode.
+- Enable auth mode. ([fc83a69](https://github.com/slsfi/jansson-frontend/commit/fc83a6901dbd499eaeb64977d1f8c24dae1484cd))
 
 
 
@@ -1485,6 +1489,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.6.1-dev.3]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.2...2.6.1-dev.3
 [2.6.1-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.1...2.6.1-dev.2
 [2.6.1-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.5.1-dev.2...2.6.1-dev.1
 [2.5.1-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.5.1-dev.1...2.5.1-dev.2
