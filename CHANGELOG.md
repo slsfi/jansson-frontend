@@ -18,7 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ### Fixed
 
-- Badge URLs in `README.md`.
+- Badge URLs in `README.md`. ([123da57](https://github.com/slsfi/jansson-frontend/commit/123da575819291a6cfa4f5a03f7feffb2cda2bb2))
 
 
 
