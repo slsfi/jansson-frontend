@@ -1192,7 +1192,7 @@
     <unit id="MainSideMenu.CollectionsGroup1">
       <segment state="initial">
         <source>Innehåll</source>
-        <target>Innehåll</target>
+        <target>Muminböcker</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup2">
