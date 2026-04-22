@@ -254,6 +254,12 @@ ion-app[class][class] {
   }
 }
 
+collection-side-menu {
+  span.description {
+    font-style: italic;
+  }
+}
+
 top-menu {
   // adjust site title in the top menu
   div.site-title {

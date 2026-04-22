@@ -11,11 +11,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Added
 
 - Cover image for collection 1.
+- Moomin logo.
 
 ### Changed
 
 - Update to base version [`2.6.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.6) from upstream, original repository.
 - Update translations.
+- CSS for descriptions in collection side menu.
+- Translations.
+- Config options.
 
 
 

@@ -28,7 +28,7 @@
     <unit id="Account.DeleteAccountInstruction">
       <segment state="initial">
         <source>Om du vill radera ditt konto, skicka ett meddelande från din kontoadress till <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;mailto:info@sls.fi&quot;&gt;" dispEnd="&lt;/a&gt;">info@sls.fi</pc> med rubriken ”SLS digitala utgåvor, radera konto”.</source>
-        <target>If you want to delete your account, send a message from your account email address to <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;mailto:info@sls.fi&quot;&gt;" dispEnd="&lt;/a&gt;">info@sls.fi</pc> with the subject ”SLS digital editions, delete account”.</target>
+        <target>If you want to delete your account, send a message from your account email address to <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;mailto:info@sls.fi&quot;&gt;" dispEnd="&lt;/a&gt;">info@sls.fi</pc> with the subject ”The Writings of Tove Jansson, delete account”.</target>
       </segment>
     </unit>
     <unit id="Account.Description">
@@ -730,7 +730,7 @@
     <unit id="Facsimiles.ChangeFacsimile">
       <segment state="initial">
         <source>Byt faksimil</source>
-        <target>Select facsimile</target>
+        <target>Select document</target>
       </segment>
     </unit>
     <unit id="Facsimiles.Error">
@@ -796,13 +796,13 @@
     <unit id="Facsimiles.SelectFacsDialogSubtitle">
       <segment state="initial">
         <source>Faksimilet ersätter det faksimil som visas i kolumnen där du klickade.</source>
-        <target>The facsimile will be shown in the column where you clicked.</target>
+        <target></target>
       </segment>
     </unit>
     <unit id="Facsimiles.SelectFacsDialogTitle">
       <segment state="initial">
         <source>Välj faksimil</source>
-        <target>Select facsimile</target>
+        <target>Select document</target>
       </segment>
     </unit>
     <unit id="Facsimiles.ZoomIn">
@@ -1294,37 +1294,37 @@
     <unit id="Manuscripts.ChangeManuscript">
       <segment state="initial">
         <source>Byt manuskript</source>
-        <target>Change manuscript</target>
+        <target>Change document</target>
       </segment>
     </unit>
     <unit id="Manuscripts.Error">
       <segment state="initial">
         <source>Ett fel har uppstått. Manuskript kunde inte hämtas.</source>
-        <target>An error occurred. Manuscripts could not be loaded.</target>
+        <target>An error occurred. Transcriptions could not be loaded.</target>
       </segment>
     </unit>
     <unit id="Manuscripts.Manuscript">
       <segment state="initial">
         <source>Manuskript</source>
-        <target>Manuscript</target>
+        <target>Transcription</target>
       </segment>
     </unit>
     <unit id="Manuscripts.None">
       <segment state="initial">
         <source>Inga manuskriptutskrifter.</source>
-        <target>No transcribed manuscripts.</target>
+        <target>No transcriptions.</target>
       </segment>
     </unit>
     <unit id="Manuscripts.SelectMsDialogSubtitle">
       <segment state="initial">
         <source>Manuskriptet ersätter det manuskript som visas i kolumnen där du klickade.</source>
-        <target>The manuscript will be shown in the column where you clicked.</target>
+        <target></target>
       </segment>
     </unit>
     <unit id="Manuscripts.SelectMsDialogTitle">
       <segment state="initial">
         <source>Välj manuskript</source>
-        <target>Select manuscript</target>
+        <target>Select document</target>
       </segment>
     </unit>
     <unit id="Manuscripts.ShowNormalized">

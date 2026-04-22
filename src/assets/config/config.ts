@@ -13,7 +13,7 @@ export const config: Config = {
         { code: "en", label: "English", region: "GB" }
       ],
       defaultLanguage: "sv",
-      multilingualCollectionTableOfContents: false,
+      multilingualCollectionTableOfContents: true,
       multilingualReadingTextLanguages: [],
       multilingualNamedEntityData: false
     },
@@ -185,8 +185,8 @@ export const config: Config = {
     home: {
       bannerImage: {
         altTexts: {
-          sv: "",
-          en: ""
+          sv: "Svartvitt foto av en kvinna med kort hår och stickad tröja som sitter vid ett skrivbord, omgiven av papper och teckningar, och skriver under en bordslampa.",
+          en: "Black and white photo of a woman with short hair and a knitted sweater sitting at a desk, surrounded by papers and drawings, writing under a desk lamp."
         },
         intrinsicSize: {
           height: 1930,
@@ -283,18 +283,18 @@ export const config: Config = {
       showURNButton: true,
       showViewOptionsButton: true,
       viewOptions: {
-        personInfo: true,
+        personInfo: false,
         placeInfo: false,
-        workInfo: true,
+        workInfo: false,
         paragraphNumbering: true,
-        pageBreakEdition: true
+        pageBreakEdition: false
       }
     },
     mediaCollection: {
       showURNButton: true
     },
     text: {
-      defaultViews: ["readingtext", "facsimiles", "manuscripts"],
+      defaultViews: ["manuscripts", "facsimiles", "readingtext"],
       defaultViewOptions: [],
       showTextDownloadButton: false,
       showURNButton: false,
@@ -303,11 +303,11 @@ export const config: Config = {
         comments: false,
         personInfo: false,
         placeInfo: false,
-        emendations: true,
-        normalisations: true,
+        emendations: false,
+        normalisations: false,
         workInfo: false,
         abbreviations: true,
-        paragraphNumbering: true,
+        paragraphNumbering: false,
         pageBreakOriginal: true,
         pageBreakEdition: false
       },
