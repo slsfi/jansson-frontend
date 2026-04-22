@@ -8,18 +8,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.6.6-dev.1] – 2026-04-22
+
 ### Added
 
-- Cover image for collection 1.
-- Moomin logo.
+- Cover image for collection 1. ([3483d43](https://github.com/slsfi/jansson-frontend/commit/3483d43b12c282c5000b4d30e1013d28c3772104))
+- Moomin logo. ([531f557](https://github.com/slsfi/jansson-frontend/commit/531f557064af4c446441f3e4958d77e2a156baa0))
 
 ### Changed
 
-- Update to base version [`2.6.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.6) from upstream, original repository.
-- Update translations.
-- CSS for descriptions in collection side menu.
-- Translations.
-- Config options.
+- Update to base version [`2.6.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.6) from upstream, original repository. ([a2e169a](https://github.com/slsfi/jansson-frontend/commit/a2e169a938f6dbc3d64739417a4f4cb124f1ccef))
+- Update translations. ([8c21d65](https://github.com/slsfi/jansson-frontend/commit/8c21d65ce797f152fab2e8e86e949d7b697bb1cd), [531f557](https://github.com/slsfi/jansson-frontend/commit/531f557064af4c446441f3e4958d77e2a156baa0))
+- CSS for descriptions in collection side menu. ([531f557](https://github.com/slsfi/jansson-frontend/commit/531f557064af4c446441f3e4958d77e2a156baa0))
+- Config options. ([531f557](https://github.com/slsfi/jansson-frontend/commit/531f557064af4c446441f3e4958d77e2a156baa0))
 
 
 
@@ -1588,6 +1591,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.6.6-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.2-dev.1...2.6.6-dev.1
 [2.6.2-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.3...2.6.2-dev.1
 [2.6.1-dev.3]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.2...2.6.1-dev.3
 [2.6.1-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.1...2.6.1-dev.2
