@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- CSS for TEI-texts.
+
 
 
 ## [2.6.6-dev.1] – 2026-04-22
