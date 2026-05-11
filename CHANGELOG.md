@@ -8,13 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.6.6-dev.2] – 2026-05-11
+
 ### Added
 
-- Åbo Akademi logo.
+- Åbo Akademi logo. ([7f7ca32](https://github.com/slsfi/jansson-frontend/commit/7f7ca32d7ca41c4b9aefed160bd89625a0a66b67))
 
 ### Changed
 
-- CSS for TEI-texts.
+- CSS for TEI-texts. ([fbad7f2](https://github.com/slsfi/jansson-frontend/commit/fbad7f286b5ee49e3619521e70bdee34f24f0b11))
 
 
 
@@ -1599,6 +1603,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.6.6-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.6.6-dev.1...2.6.6-dev.2
 [2.6.6-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.2-dev.1...2.6.6-dev.1
 [2.6.2-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.3...2.6.2-dev.1
 [2.6.1-dev.3]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.2...2.6.1-dev.3
