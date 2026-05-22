@@ -324,7 +324,7 @@ export const config: Config = {
         variants: false,
         illustrations: false,
         legend: true,
-        metadata: false
+        metadata: true
       },
       viewTypeDisabledCollections: {
         readingtext: [],
