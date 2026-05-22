@@ -1395,7 +1395,7 @@
     </unit>
     <unit id="Metadata.ArchiveInfo">
       <segment state="initial">
-        <source>Arkivkälla för faksimilet</source>
+        <source>Arkivkälla</source>
         <target>Archive</target>
       </segment>
     </unit>
@@ -1419,7 +1419,7 @@
     </unit>
     <unit id="Metadata.ExternalUrl">
       <segment state="initial">
-        <source>Extern länk för faksimilet</source>
+        <source>Extern länk</source>
         <target>Link</target>
       </segment>
     </unit>
@@ -1435,16 +1435,58 @@
         <target>Facsimiles</target>
       </segment>
     </unit>
-    <unit id="Metadata.FacsimileTitle">
+    <unit id="Metadata.FacsimileSummary">
       <segment state="initial">
-        <source>Faksimilets titel</source>
-        <target>Facsimile title</target>
+        <source>Faksimilinfo</source>
+        <target>Facsimile info</target>
       </segment>
     </unit>
     <unit id="Metadata.ImageNumberInfo">
       <segment state="initial">
-        <source>Bildernas nummer i digitalarkivet</source>
+        <source>Bildernas nummer <ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>i digitalarkivet</source>
         <target>Image number info</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Keywords">
+      <segment state="initial">
+        <source>Ämnesord</source>
+        <target>Keywords</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Language">
+      <segment state="initial">
+        <source>Språk</source>
+        <target>Language</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Licence">
+      <segment state="initial">
+        <source>Licens</source>
+        <target>Licence</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.LicenceEncoding">
+      <segment state="initial">
+        <source>Licens för TEI-filen</source>
+        <target>Licence for the TEI-file</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.LicenceWork">
+      <segment state="initial">
+        <source>Licens för verket</source>
+        <target>Licens for the work</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Manuscript">
+      <segment state="initial">
+        <source>Manuskript</source>
+        <target>Manuscript</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Manuscripts">
+      <segment state="initial">
+        <source>Manuskript</source>
+        <target>Manuscripts</target>
       </segment>
     </unit>
     <unit id="Metadata.Metadata">
@@ -1465,16 +1507,64 @@
         <target>Number of images</target>
       </segment>
     </unit>
+    <unit id="Metadata.OrigDate">
+      <segment state="initial">
+        <source>Datering</source>
+        <target>Date</target>
+      </segment>
+    </unit>
     <unit id="Metadata.OriginalLanguage">
       <segment state="initial">
         <source>Originalspråk</source>
         <target>Original language</target>
       </segment>
     </unit>
+    <unit id="Metadata.Overview">
+      <segment state="initial">
+        <source>Översikt</source>
+        <target>Overview</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Persons">
+      <segment state="initial">
+        <source>Personer</source>
+        <target>Persons</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.PhysDescription">
+      <segment state="initial">
+        <source>Fysisk beskrivning</source>
+        <target>Physical description</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.PhysDimensions">
+      <segment state="initial">
+        <source>Fysiska mått</source>
+        <target>Dimensions</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Places">
+      <segment state="initial">
+        <source>Orter</source>
+        <target>Places</target>
+      </segment>
+    </unit>
     <unit id="Metadata.PublicationDate">
       <segment state="initial">
         <source>Datering</source>
         <target>Date</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.PublicationGenre">
+      <segment state="initial">
+        <source>Genre</source>
+        <target>Genre</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.PublicationLanguage">
+      <segment state="initial">
+        <source>Språk</source>
+        <target>Language</target>
       </segment>
     </unit>
     <unit id="Metadata.PublicationSubtitle">
@@ -1507,6 +1597,18 @@
         <target>Recipients</target>
       </segment>
     </unit>
+    <unit id="Metadata.Responsibility">
+      <segment state="initial">
+        <source>Bearbetning</source>
+        <target>Preparation</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Rights">
+      <segment state="initial">
+        <source>Rättigheter</source>
+        <target>Rights</target>
+      </segment>
+    </unit>
     <unit id="Metadata.Sender">
       <segment state="initial">
         <source>Avsändare</source>
@@ -1519,6 +1621,18 @@
         <target>Senders</target>
       </segment>
     </unit>
+    <unit id="Metadata.SourceArchive">
+      <segment state="initial">
+        <source>Arkivkälla</source>
+        <target>Source archive</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.SourceBibl">
+      <segment state="initial">
+        <source>Bibliografisk källa</source>
+        <target>Bibliographic source</target>
+      </segment>
+    </unit>
     <unit id="Metadata.Translation">
       <segment state="initial">
         <source>Översättning</source>
@@ -1529,6 +1643,36 @@
       <segment state="initial">
         <source>Översättningar</source>
         <target>Translations</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Untitled">
+      <segment state="initial">
+        <source>[saknar titel]</source>
+        <target>[untitled]</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Variant">
+      <segment state="initial">
+        <source>Tryckt variant</source>
+        <target>Printed variant</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.VariantBaseText">
+      <segment state="initial">
+        <source>Grundtext</source>
+        <target>Base text</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.Variants">
+      <segment state="initial">
+        <source>Tryckta varianter</source>
+        <target>Printed variants</target>
+      </segment>
+    </unit>
+    <unit id="Metadata.VariantText">
+      <segment state="initial">
+        <source>Variant</source>
+        <target>Variant</target>
       </segment>
     </unit>
     <unit id="NamedEntity.Articles">
@@ -1725,8 +1869,8 @@
     </unit>
     <unit id="Password.TooShort">
       <segment state="initial">
-        <source>Lösenordet är för kort.</source>
-        <target>The password is too short.</target>
+        <source>Lösenordet måste vara minst 12 tecken långt.</source>
+        <target>The password must be at least 12 characters long.</target>
       </segment>
     </unit>
     <unit id="PdfViewer.DownloadPdf">
