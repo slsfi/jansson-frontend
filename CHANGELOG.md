@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.0-dev.1] – 2026-05-22
+
 ### Changed
 
-- Update to base version [`2.7.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.0) from upstream, original repository.
-- Enable publication metadata column.
+- Update to base version [`2.7.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.0) from upstream, original repository. ([7d5fb5b](https://github.com/slsfi/jansson-frontend/commit/7d5fb5b6b6265e1ddee7389ace2a148518c3d51b))
+- Enable publication metadata column. ([8047eb4](https://github.com/slsfi/jansson-frontend/commit/8047eb486672179ae683cbb087e73b0e8d6a3a77))
 
 
 
@@ -1637,6 +1641,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.6-dev.2...2.7.0-dev.1
 [2.6.6-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.6.6-dev.1...2.6.6-dev.2
 [2.6.6-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.2-dev.1...2.6.6-dev.1
 [2.6.2-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.3...2.6.2-dev.1
