@@ -1480,13 +1480,13 @@
     <unit id="Metadata.Manuscript">
       <segment state="initial">
         <source>Manuskript</source>
-        <target>Manuskript</target>
+        <target>Transkription</target>
       </segment>
     </unit>
     <unit id="Metadata.Manuscripts">
       <segment state="initial">
         <source>Manuskript</source>
-        <target>Manuskript</target>
+        <target>Transkriptioner</target>
       </segment>
     </unit>
     <unit id="Metadata.Metadata">
@@ -1516,7 +1516,7 @@
     <unit id="Metadata.OriginalLanguage">
       <segment state="initial">
         <source>Originalspråk</source>
-        <target>Originalspråk</target>
+        <target>Språk</target>
       </segment>
     </unit>
     <unit id="Metadata.Overview">
@@ -1552,7 +1552,7 @@
     <unit id="Metadata.PublicationDate">
       <segment state="initial">
         <source>Datering</source>
-        <target>Datering</target>
+        <target>Utgivningsår</target>
       </segment>
     </unit>
     <unit id="Metadata.PublicationGenre">
@@ -1582,7 +1582,7 @@
     <unit id="Metadata.PublishedBy">
       <segment state="initial">
         <source>Publicerat i</source>
-        <target>Publicerat i</target>
+        <target>Verk</target>
       </segment>
     </unit>
     <unit id="Metadata.Recipient">
