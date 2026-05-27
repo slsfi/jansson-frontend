@@ -380,3 +380,12 @@ page-elastic-search {
     }
   }
 }
+
+/* Remove after fixed in base app: */
+text-metadata {
+  div.tei {
+    h2, h3 {
+      text-align: left;
+    }
+  }
+}

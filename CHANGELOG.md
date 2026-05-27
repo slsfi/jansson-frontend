@@ -12,6 +12,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - Metadata translations.
 
+### Fixed
+
+- Metadata: text-alignment of headings.
+
 
 
 ## [2.7.0-dev.1] – 2026-05-22
