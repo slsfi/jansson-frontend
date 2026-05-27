@@ -8,13 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.0-dev.2] – 2026-05-27
+
 ### Changed
 
-- Metadata translations.
+- Metadata translations. ([01c751a](https://github.com/slsfi/jansson-frontend/commit/01c751acce29b2128e4a65ae2c5ec655785781ff))
 
 ### Fixed
 
-- Metadata: text-alignment of headings.
+- Metadata: text-alignment of headings. ([760c47f](https://github.com/slsfi/jansson-frontend/commit/760c47f99befa1cc7a5099ca2ff331a36b9026e9))
 
 
 
@@ -1649,6 +1653,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.0-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.7.0-dev.1...2.7.0-dev.2
 [2.7.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.6-dev.2...2.7.0-dev.1
 [2.6.6-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.6.6-dev.1...2.6.6-dev.2
 [2.6.6-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.2-dev.1...2.6.6-dev.1
