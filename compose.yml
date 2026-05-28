@@ -4,7 +4,7 @@ services:
     depends_on:
       - web
     ports:
-      - 2090:80
+      - 8085:80
     restart: unless-stopped
     volumes:
       - browser-static:/static
@@ -13,7 +13,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ghcr.io/slsfi/jansson-frontend:2.7.2-dev.1
+    image: ghcr.io/slsfi/jansson-frontend:2.7.2-production.1
     restart: unless-stopped
     volumes:
       - browser-static:/digital-edition-frontend-ng/dist/app/browser

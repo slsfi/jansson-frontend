@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Create production configuration.
+
 
 
 ## [2.7.2-dev.1] – 2026-05-28
