@@ -12,6 +12,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - Update to base version [`2.7.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.1) from upstream, original repository.
 
+### Fixed
+
+- Remove extra custom CSS.
+
 
 
 ## [2.7.1] – 2026-05-28
