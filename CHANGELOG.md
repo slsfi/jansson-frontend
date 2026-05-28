@@ -8,14 +8,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.2-dev.1] – 2026-05-28
+
 ### Changed
 
-- Update to base version [`2.7.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.2) from upstream, original repository.
-- Update config.
+- Update to base version [`2.7.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.2) from upstream, original repository. ([acba4a2](https://github.com/slsfi/jansson-frontend/commit/acba4a2bfcd91a20ed9012657d0ace34d006d0aa), [4a7a907](https://github.com/slsfi/jansson-frontend/commit/4a7a907b84697cd15a854388916dd42de6ff90d2))
+- Update config. ([cdfe478](https://github.com/slsfi/jansson-frontend/commit/cdfe478c3d08c6ec03168b8aa3bf4dee629a6dff))
 
 ### Fixed
 
-- Remove extra custom CSS.
+- Remove extra custom CSS. ([c4a0add](https://github.com/slsfi/jansson-frontend/commit/c4a0add466cbacb58ff9a5a4537cc7e1f0ce3a0f))
 
 
 
@@ -1689,6 +1693,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.2-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.0-dev.2...2.7.2-dev.1
 [2.7.0-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.7.0-dev.1...2.7.0-dev.2
 [2.7.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.6-dev.2...2.7.0-dev.1
 [2.6.6-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.6.6-dev.1...2.6.6-dev.2
