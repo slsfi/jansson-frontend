@@ -2,10 +2,10 @@ type Config = { [key: string]: any }
 
 export const config: Config = {
   app: {
-    siteURLOrigin: "https://testa-jansson.sls.fi",
+    siteURLOrigin: "https://jansson.sls.fi",
     projectNameDB: "jansson",
     projectId: 1,
-    backendBaseURL: "https://testa-jansson-api.sls.fi/digitaledition",
+    backendBaseURL: "https://jansson-api.sls.fi/digitaledition",
     alternateFacsimileBaseURL: "",
     i18n: {
       languages: [
@@ -20,7 +20,7 @@ export const config: Config = {
     enableRouterLoadingBar: true,
     auth: {
       enabled: true,
-      backendAuthBaseURL: "https://testa-jansson-api.sls.fi/"
+      backendAuthBaseURL: "https://jansson-api.sls.fi/"
     },
     openGraphMetaTags: {
       enabled: true,
@@ -118,7 +118,7 @@ export const config: Config = {
         },
         {
           terms: {
-            published: ["1", "2"]
+            published: ["2"]
           }
         }
       ],
