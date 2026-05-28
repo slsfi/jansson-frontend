@@ -37,7 +37,7 @@ export const config: Config = {
     },
     prebuild: {
       featureBasedRoutes: true,
-      sitemap: false,
+      sitemap: true,
       staticCollectionMenus: false
     },
     ssr: {
@@ -102,14 +102,14 @@ export const config: Config = {
     elasticSearch: {
       enableFilters: true,
       enableSortOptions: true,
-      filterGroupsOpenByDefault: ["Years", "Type", "Genre", "Collection"],
+      filterGroupsOpenByDefault: ["Years"],
       hitsPerPage: 15,
       indices: ["jansson"],
       openReadingTextWithComments: false,
       textHighlightFragmentSize: 150,
       textHighlightType: "fvh",
       textTitleHighlightType: "fvh",
-      typeFilterGroupOptions: ["est", "com", "var", "inl", "tit", "fore"],
+      typeFilterGroupOptions: ["ms"],
       fixedFilters: [
         {
           terms: {
@@ -118,7 +118,7 @@ export const config: Config = {
         },
         {
           terms: {
-            published: ["2"]
+            published: ["1", "2"]
           }
         }
       ],
@@ -129,51 +129,6 @@ export const config: Config = {
             field: "orig_date_sort",
             calendar_interval: "year",
             format: "yyyy"
-          }
-        },
-        Type: {
-          terms: {
-            field: "text_type",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        Genre: {
-          terms: {
-            field: "publication_data.genre.keyword",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        Collection: {
-          terms: {
-            field: "publication_data.collection_name.keyword",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        LetterSenderName: {
-          terms: {
-            field: "sender_subject_name.keyword",
-            size: 100
-          }
-        },
-        LetterReceiverName: {
-          terms: {
-            field: "receiver_subject_name.keyword",
-            size: 100
-          }
-        },
-        LetterSenderLocation: {
-          terms: {
-            field: "sender_location_name.keyword",
-            size: 50
-          }
-        },
-        LetterReceiverLocation: {
-          terms: {
-            field: "receiver_location_name.keyword",
-            size: 50
           }
         }
       }
@@ -294,10 +249,10 @@ export const config: Config = {
       showURNButton: true
     },
     text: {
-      defaultViews: ["manuscripts", "facsimiles", "readingtext"],
+      defaultViews: ["manuscripts", "facsimiles", "metadata"],
       defaultViewOptions: [],
       showTextDownloadButton: false,
-      showURNButton: false,
+      showURNButton: true,
       showViewOptionsButton: true,
       viewOptions: {
         comments: false,
@@ -317,7 +272,7 @@ export const config: Config = {
       },
       viewTypes: {
         showAll: true,
-        readingtext: true,
+        readingtext: false,
         comments: false,
         facsimiles: true,
         manuscripts: true,
@@ -383,7 +338,7 @@ export const config: Config = {
         privacyPolicy: true,
         accessibilityStatement: false,
       },
-      defaultExpanded: false,
+      defaultExpanded: true,
       ungroupArticles: true
     },
     manuscripts: {
@@ -404,32 +359,32 @@ export const config: Config = {
   modal: {
     downloadTexts: {
       introductionFormats: {
-        xml: true,
+        xml: false,
         html: false,
         xhtml: false,
         txt: false,
-        print: true
+        print: false
       },
       readingTextFormats: {
-        xml: true,
+        xml: false,
         html: false,
         xhtml: false,
         txt: false,
-        print: true
+        print: false
       },
       commentsFormats: {
-        xml: true,
+        xml: false,
         html: false,
         xhtml: false,
         txt: false,
-        print: true
+        print: false
       },
       manuscriptsFormats: {
         xml: false,
         html: false,
         xhtml: false,
         txt: false,
-        print: true
+        print: false
       }
     },
     fullscreenImageViewer: {
