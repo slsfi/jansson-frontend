@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.2-production.1] – 2026-05-28
+
 ### Changed
 
-- Create production configuration.
+- Create production configuration. ([b2d43a9](https://github.com/slsfi/jansson-frontend/commit/b2d43a972e50d5f4dab75bc8da8e399d9f94ea88))
 
 
 
@@ -1697,26 +1701,4 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
-[2.7.2-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.0-dev.2...2.7.2-dev.1
-[2.7.0-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.7.0-dev.1...2.7.0-dev.2
-[2.7.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.6-dev.2...2.7.0-dev.1
-[2.6.6-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.6.6-dev.1...2.6.6-dev.2
-[2.6.6-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.2-dev.1...2.6.6-dev.1
-[2.6.2-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.3...2.6.2-dev.1
-[2.6.1-dev.3]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.2...2.6.1-dev.3
-[2.6.1-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.6.1-dev.1...2.6.1-dev.2
-[2.6.1-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.5.1-dev.2...2.6.1-dev.1
-[2.5.1-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.5.1-dev.1...2.5.1-dev.2
-[2.5.1-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.5.0-dev.1...2.5.1-dev.1
-[2.5.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.4.4-dev.1...2.5.0-dev.1
-[2.4.4-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.3...2.4.4-dev.1
-[2.0.0-dev.3]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.2...2.0.0-dev.3
-[2.0.0-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.0.0-dev.1...2.0.0-dev.2
-[2.0.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/1.8.2-dev.1...2.0.0-dev.1
-[1.8.2-dev.1]: https://github.com/slsfi/jansson-frontend/compare/1.6.5-dev.2...1.8.2-dev.1
-[1.6.5-dev.2]: https://github.com/slsfi/jansson-frontend/compare/1.6.5-dev.1...1.6.5-dev.2
-[1.6.5-dev.1]: https://github.com/slsfi/jansson-frontend/compare/1.6.2-dev.4...1.6.5-dev.1
-[1.6.2-dev.4]: https://github.com/slsfi/jansson-frontend/compare/1.6.2-dev.3...1.6.2-dev.4
-[1.6.2-dev.3]: https://github.com/slsfi/jansson-frontend/compare/1.6.2-dev.2...1.6.2-dev.3
-[1.6.2-dev.2]: https://github.com/slsfi/jansson-frontend/compare/1.6.2-dev.1...1.6.2-dev.2
-[1.6.2-dev.1]: https://github.com/slsfi/jansson-frontend/releases/tag/1.6.2-dev.1
+[2.7.2-production.1]: https://github.com/slsfi/jansson-frontend/releases/tag/2.7.2-production.1
