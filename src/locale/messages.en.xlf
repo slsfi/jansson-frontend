@@ -715,6 +715,12 @@
         <target>Start by entering search terms or applying filters.</target>
       </segment>
     </unit>
+    <unit id="ElasticSearch.StartSearchInstructionNoFilters">
+      <segment state="initial">
+        <source>Börja söka genom att skriva in sökord.</source>
+        <target>Start by entering search terms.</target>
+      </segment>
+    </unit>
     <unit id="ElasticSearch.TimeRange">
       <segment state="initial">
         <source>Tidsperiod</source>
@@ -1936,7 +1942,7 @@
     <unit id="Reference.Permalink">
       <segment state="initial">
         <source>Beständig webbadress</source>
-        <target>Permalink</target>
+        <target>Permanent URL</target>
       </segment>
     </unit>
     <unit id="Reference.Refer">
