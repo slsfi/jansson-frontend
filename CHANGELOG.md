@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.3-production.2] – 2026-06-02
+
 ### Fixed
 
-- Don't track URL fragments in Matomo.
+- Don't track URL fragments in Matomo. ([de936f4](https://github.com/slsfi/jansson-frontend/commit/de936f4c32d13335f51e865ba2beeda147bb6578))
 
 
 
@@ -1730,5 +1734,6 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.3-production.2]: https://github.com/slsfi/jansson-frontend/compare/2.7.3-production.1...2.7.3-production.2
 [2.7.3-production.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.2-production.1...2.7.3-production.1
 [2.7.2-production.1]: https://github.com/slsfi/jansson-frontend/releases/tag/2.7.2-production.1
