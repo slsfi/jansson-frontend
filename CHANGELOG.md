@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Fixed
+
+- Don't track URL fragments in Matomo.
+
 
 
 ## [2.7.3-production.1] – 2026-06-01
