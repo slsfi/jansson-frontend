@@ -8,6 +8,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Update to base version [`2.7.5`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.5) from upstream, original repository.
+
+
+
+## [2.7.5] – 2026-06-18
+
+### Changed
+
+- Update `nginx` to 1.30.3. ([11bd22c](https://github.com/slsfi/digital-edition-frontend-ng/commit/11bd22cb9cf03a6443385d12ae9cc5b8e210190a))
+- Deps: update `@angular/core` to 20.3.25 and `@angular/cli` to 20.3.29. ([224aff2](https://github.com/slsfi/digital-edition-frontend-ng/commit/224aff27ab5480d4889461c3424eac47df0572cc))
+- Deps: update `marked` to 18.0.5. ([59fef9e](https://github.com/slsfi/digital-edition-frontend-ng/commit/59fef9e0804cce73f47f9b1d381327e7347fd9ad))
+- Deps (dev): update `@types/node` to 22.19.21. ([ddeada7](https://github.com/slsfi/digital-edition-frontend-ng/commit/ddeada796c1a0875e7fe9ad55d4f617a3d0172fc))
+- Deps (dev): update `ng-extract-i18n-merge` to 3.4.0. ([7eed2df](https://github.com/slsfi/digital-edition-frontend-ng/commit/7eed2df982b3d87b3bd0c4244cb0d1b7d86cabfb))
+- Deps: update transitive dependencies. ([982ef53](https://github.com/slsfi/digital-edition-frontend-ng/commit/982ef539f50cbc96784d3e492217723096e46d34))
+
+### Fixed
+
+- Set document title for verify-email page. ([bc85b0e](https://github.com/slsfi/digital-edition-frontend-ng/commit/bc85b0e655be1eee7be09ae950f167a9df07059a))
+- Article: redirect to the active locale's configured route when switching languages from an article URL with a locale-specific route name. ([c641b76](https://github.com/slsfi/digital-edition-frontend-ng/commit/c641b76d42335e4d65c94f3d4d84964a57027ccd))
+- Top menu: use configured localized article route names in language links. ([f70990a](https://github.com/slsfi/digital-edition-frontend-ng/commit/f70990a41c0ab8361a7638e481149590cbee0faf))
+
 
 
 ## [2.7.4-production.1] – 2026-06-03
@@ -1681,7 +1704,8 @@ siteLogoDimensions: {
 
 
 
-[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.7.4...HEAD
+[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.7.5...HEAD
+[2.7.5]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.7.4...2.7.5
 [2.7.4]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.7.3...2.7.4
 [2.7.3]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.7.2...2.7.3
 [2.7.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.7.1...2.7.2
