@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.6-production.1] – 2026-06-23
+
 ### Changed
 
-- Update to base version [`2.7.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.6) from upstream, original repository.
+- Update to base version [`2.7.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.6) from upstream, original repository. ([4794fc2](https://github.com/slsfi/jansson-frontend/commit/4794fc2b8ec9ddfcd4e592f30e25419adcc6e133))
 
 
 
@@ -1814,6 +1818,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.6-production.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.5-production.3...2.7.6-production.1
 [2.7.5-production.3]: https://github.com/slsfi/jansson-frontend/compare/2.7.5-production.2...2.7.5-production.3
 [2.7.5-production.2]: https://github.com/slsfi/jansson-frontend/compare/2.7.5-production.1...2.7.5-production.2
 [2.7.5-production.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.4-production.1...2.7.5-production.1
