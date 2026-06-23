@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Fixed
+
+- Open Graph images.
+
 
 
 ## [2.7.5-production.1] – 2026-06-18

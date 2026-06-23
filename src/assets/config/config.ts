@@ -27,11 +27,11 @@ export const config: Config = {
       image: {
         sv: {
           altText: "Svartvitt foto av en kvinna med kort hår och stickad tröja som sitter vid ett skrivbord, omgiven av papper och teckningar, och skriver under en bordslampa.",
-          URL: "assets/images/home-page-banner.jpg"
+          URL: "assets/images/open-graph/tove-janssons-skrifter-1200x630.jpg"
         },
         en: {
           altText: "Black and white photo of a woman with short hair and a knitted sweater sitting at a desk, surrounded by papers and drawings, writing under a desk lamp.",
-          URL: "assets/images/home-page-banner.jpg"
+          URL: "assets/images/open-graph/writings-of-tove-jansson-1200x630.jpg"
         }
       }
     },
