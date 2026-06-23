@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.5-dev.3] – 2026-06-23
+
 ### Fixed
 
-- Site meta description.
+- Site meta description. ([9d528bb](https://github.com/slsfi/jansson-frontend/commit/9d528bbc9f64c6a3f9f762eb34ae23d2613aa863))
 
 
 
@@ -1776,6 +1780,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.5-dev.3]: https://github.com/slsfi/jansson-frontend/compare/2.7.5-dev.2...2.7.5-dev.3
 [2.7.5-dev.2]: https://github.com/slsfi/jansson-frontend/compare/2.7.5-dev.1...2.7.5-dev.2
 [2.7.5-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.4-dev.1...2.7.5-dev.1
 [2.7.4-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.3-dev.1...2.7.4-dev.1
