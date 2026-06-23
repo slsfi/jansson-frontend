@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Fixed
+
+- Site meta description.
+
 
 
 ## [2.7.5-dev.2] – 2026-06-23
