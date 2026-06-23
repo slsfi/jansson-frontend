@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.5-production.2] – 2026-06-23
+
 ### Fixed
 
-- Open Graph images.
+- Open Graph images. ([c340624](https://github.com/slsfi/jansson-frontend/commit/c3406240174a97090de111d32c07c6c35467d1a6))
 
 
 
@@ -1784,6 +1788,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.5-production.2]: https://github.com/slsfi/jansson-frontend/compare/2.7.5-production.1...2.7.5-production.2
 [2.7.5-production.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.4-production.1...2.7.5-production.1
 [2.7.4-production.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.3-production.2...2.7.4-production.1
 [2.7.3-production.2]: https://github.com/slsfi/jansson-frontend/compare/2.7.3-production.1...2.7.3-production.2
