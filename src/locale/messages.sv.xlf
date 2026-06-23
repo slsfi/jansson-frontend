@@ -2302,7 +2302,7 @@
     <unit id="Site.MetaDescription.Home">
       <segment state="initial">
         <source>En generell beskrivning av webbplatsen för sökmotorer.</source>
-        <target>En generell beskrivning av webbplatsen för sökmotorer.</target>
+        <target>Digital utgåva med faksimil och transkriptioner av Tove Janssons manuskript.</target>
       </segment>
     </unit>
     <unit id="Site.Subtitle">
