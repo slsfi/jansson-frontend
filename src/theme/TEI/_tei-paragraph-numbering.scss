@@ -82,6 +82,16 @@
   }
 }
 
+.tei.tei.show_paragraphNumbering {
+  blockquote {
+    p span {
+      &.pNumber {
+        margin-left: -65px;
+      }
+    }
+  }
+}
+
 /*
 Left padding for reading-texts and introductions when the
 paragraph numbering is displayed.
