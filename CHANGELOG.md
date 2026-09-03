@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Config: disable sitemap generation on development site.
+
 
 
 ## [2.7.9-dev.1] – 2026-09-03
