@@ -37,7 +37,7 @@ export const config: Config = {
     },
     prebuild: {
       featureBasedRoutes: true,
-      sitemap: true,
+      sitemap: false,
       staticCollectionMenus: false
     },
     ssr: {
