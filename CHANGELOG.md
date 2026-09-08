@@ -8,12 +8,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [3.0.1-dev.1] – 2026-09-08
+
 ### Changed
 
-- Config: disable sitemap generation on development site.
-- Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository.
-- Align `custom.scss` with v3.0.0 changes.
-- Use v2 TEI-styling and restore v1 SCSS files.
+- Config: disable sitemap generation on development site. ([52fbc60](https://github.com/slsfi/jansson-frontend/commit/52fbc60332f4105556413356652dd14623dc7d0b))
+- Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository. ([738073e](https://github.com/slsfi/jansson-frontend/commit/738073ed123452cd3bc0bfa8a9f6898eb7543263))
+- Align `custom.scss` with v3.0.0 changes. ([611cca9](https://github.com/slsfi/jansson-frontend/commit/611cca9ba0c91dc72faa124e775f36d8b8ae9822))
+- Use v2 TEI-styling and restore v1 SCSS files. ([288219c](https://github.com/slsfi/jansson-frontend/commit/288219c5575120fd84899d4f34b18df72f7b800c))
 
 
 
@@ -1923,6 +1927,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[3.0.1-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.9-dev.1...3.0.1-dev.1
 [2.7.9-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.6-dev.1...2.7.9-dev.1
 [2.7.6-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.5-dev.3...2.7.6-dev.1
 [2.7.5-dev.3]: https://github.com/slsfi/jansson-frontend/compare/2.7.5-dev.2...2.7.5-dev.3
