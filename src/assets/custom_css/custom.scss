@@ -338,37 +338,24 @@ top-menu {
 
 /* Home page */
 page-home {
-  .banner.banner {
-    height: 75%;
+  --banner-height: 75%;
+  --banner-title-color: #fff;
+  --banner-title-font-weight: 800;
+  --banner-title-letter-spacing: 0.15em;
+  --banner-title-text-shadow: 0 0 8px #000;
+  --banner-title-text-transform: uppercase;
+  --banner-title-white-space: pre-line;
+  --landscape-pic-img-obj-position: left 15%;  /* The top left of the banner image must remain in view */
+  --text-content-max-width: 1000px;
+  --site-presentation-max-width: 750px;
 
+
+  .banner.banner {
     .title-wrapper {
       &.title-wrapper {
         top: 55%;
       }
-
-      .banner-title {
-        background-color: transparent;
-        color: #fff;
-        font-style: normal;
-        font-weight: 800;
-        letter-spacing: 0.15em;
-        opacity: unset;
-        text-shadow: 0 0 8px #000;
-        text-transform: uppercase;
-        white-space: pre-line;
-      }
     }
-
-
-    /* The top left of the banner image must remain in view */
-    .landscape-picture img {
-      object-position: left 15%;
-    }
-  }
-
-  .text-content div.site-presentation.markdown.markdown {
-    max-width: 750px;
-    text-align: left;
   }
 }
 

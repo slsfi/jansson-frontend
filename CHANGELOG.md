@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - Config: disable sitemap generation on development site.
 - Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository.
+- Align `custom.scss` with v3.0.0 changes.
 
 
 
