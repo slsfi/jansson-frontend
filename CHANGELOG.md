@@ -8,11 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [3.0.1-production.1] – 2026-09-08
+
 ### Changed
 
-- Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository.
-- Align `custom.scss` with v3.0.0 changes.
-- Use v2 TEI-styling and restore v1 SCSS files.
+- Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository. ([b6ed936](https://github.com/slsfi/jansson-frontend/commit/b6ed936fc296d56ed34fbd51fd664d12aeef6548))
+- Align `custom.scss` with v3.0.0 changes. ([8646c04](https://github.com/slsfi/jansson-frontend/commit/8646c044c97af4fec832a61835a141ca57cddb1b))
+- Use v2 TEI-styling and restore v1 SCSS files. ([d0e02c8](https://github.com/slsfi/jansson-frontend/commit/d0e02c837bc6d8df35ee9af56a2f06ecec0feda5))
 
 
 
@@ -1938,6 +1942,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[3.0.1-production.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.9-production.1...3.0.1-production.1
 [2.7.9-production.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.6-production.1...2.7.9-production.1
 [2.7.6-production.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.5-production.3...2.7.6-production.1
 [2.7.5-production.3]: https://github.com/slsfi/jansson-frontend/compare/2.7.5-production.2...2.7.5-production.3
