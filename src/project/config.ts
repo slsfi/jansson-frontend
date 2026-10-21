@@ -355,6 +355,10 @@ export const config: Config = {
       showAboutButton: false,
       showContentButton: true,
       showElasticSearchButton: true,
+      showLanguageButton: true
+    },
+    variants: {
+      showOpenLegendButton: true
     }
   },
   modal: {
