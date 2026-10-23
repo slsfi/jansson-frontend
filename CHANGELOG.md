@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [4.1.0-dev.1] – 2026-10-23
+
 ### Changed
 
-- Update to base version [`4.1.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.1.0) from upstream, original repository.
-- Enable static, localized collection cover metadata.
+- Update to base version [`4.1.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.1.0) from upstream, original repository. ([7f44985](https://github.com/slsfi/jansson-frontend/commit/7f44985462bcb911c07c4a66c11438b9951e89b3))
+- Enable static, localized collection cover metadata. ([6766c6e](https://github.com/slsfi/jansson-frontend/commit/6766c6e627d49d5dc0a16d3cc9cfbcd690f1efae))
 
 
 
@@ -2098,6 +2102,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[4.1.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/4.0.0-dev.1...4.1.0-dev.1
 [4.0.0-dev.1]: https://github.com/slsfi/jansson-frontend/compare/3.1.1-dev.1...4.0.0-dev.1
 [3.1.1-dev.1]: https://github.com/slsfi/jansson-frontend/compare/3.0.1-dev.1...3.1.1-dev.1
 [3.0.1-dev.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.9-dev.1...3.0.1-dev.1
