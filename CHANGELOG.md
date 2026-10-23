@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [4.1.0-production.1] – 2026-10-23
+
 ### Changed
 
-- Update to base version [`4.1.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.1.0) from upstream, original repository.
-- Enable static, localized collection cover metadata.
+- Update to base version [`4.1.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.1.0) from upstream, original repository. ([31749b9](https://github.com/slsfi/jansson-frontend/commit/31749b9ac2d0afa3b3859aec5284bb34042d3021))
+- Enable static, localized collection cover metadata. ([acfc1e0](https://github.com/slsfi/jansson-frontend/commit/acfc1e06bc14251ffc2935a760f4106569c688a2))
 
 
 
@@ -2113,6 +2117,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[4.1.0-production.1]: https://github.com/slsfi/jansson-frontend/compare/4.0.0-production.1...4.1.0-production.1
 [4.0.0-production.1]: https://github.com/slsfi/jansson-frontend/compare/3.1.1-production.1...4.0.0-production.1
 [3.1.1-production.1]: https://github.com/slsfi/jansson-frontend/compare/3.0.1-production.1...3.1.1-production.1
 [3.0.1-production.1]: https://github.com/slsfi/jansson-frontend/compare/2.7.9-production.1...3.0.1-production.1
